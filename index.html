@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pixl.mp3</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h1>PIXL.mp3</h1>
+    <p>Your music. your world</p>
+
+    <button>play music</button>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <h1>PIXL.mp3</h1>
+            <p class="menu-title">MENU</p>
+
+            <nav>
+                <a href="#" class="active">HOME</a>
+                <a href="#"> LIBRARY</a>
+                <a href="#">PLAYLISTS</a>
+                <a href="#">SETTINGS</a>
+            </nav>
+
+            <p class="version">v1.0.0</p>
+        </aside>
+        <main class="main-content">
+            <h2>WELCOME TO PIXL.mp3</h2>
+            <p>your music,your world.</p>
+
+            <section class="welcome-card">
+        
+        <section class="now-playing">
+            <h2>NOW PLAYING</h2>
+            <p id="current-song">No song selected</p>
+            <audio id="audio-player"></audio>
+
+<div class="player-controls">
+    <button id="previous-button">⏮ PREVIOUS</button>
+    <button id="play-pause-button">⏸ PAUSE</button>
+    <button id="next-button">NEXT ⏭</button>
+</div>
+            <div class="progress-container">
+                <input type="range" id="progress-bar" min="0" max="100" value="0">
+                <span id="duration">0:00</span>
+            </div>
+        </section>
+
+      
+
+    <div class="library-header">
+        <div>
+            <h2>MY MUSIC</h2>
+            <p>Your personal music collection.</p>
+        </div>
+
+        <label for="music-upload" class="upload-button">
+            + ADD MUSIC
+        </label>
+
+        <input
+            type="file"
+            id="music-upload"
+            accept="audio/mpeg,audio/mp3,audio/flac,audio/wav"
+            multiple
+        >
+    </div>
+
+    <div id="song-list">
+        <p class="empty-message">
+            No music yet. Upload your first song!
+        </p>
+    </div>
+
+</section>
+
+                <h2>READY TO LISTEN?</h2>
+                <p>your music collection starts here.</p>
+                <button>EXPLORE MUSIC</button>
+            </section>
+            <section class="featured">
+                <p class="section-label">FEATURED</p>
+
+                <div class="featured-content" >
+                    <div>
+                        <h2>YOUR NEXT FAVORITE</h2>
+                        <p>Discover something new today.</p>
+                        <button>EXPLORE</button>
+                    </div>
+
+                    <div class="featured-art">
+                        <span>♫</span>
+                        <p>PIXL MIX</p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
