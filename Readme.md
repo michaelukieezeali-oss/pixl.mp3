@@ -35,3 +35,4 @@ Pixl.mp3 is a personal project created to explore web development, JavaScript, a
 ---
 
 **Made with code and creativity.** 💜
+this is a simple project, it is unfinished but it works so please bear with me
